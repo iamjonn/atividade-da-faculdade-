@@ -1,0 +1,54 @@
+/* https://www.w3.org/TR/css3-color/ */
+
+body {
+    color: darkslategrey;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+img {
+  border-radius: 50%;
+}
+
+
+  #copyright {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  h1 {
+    font-size:30px;
+  }
+
+  h2 {
+    font-size:24px;
+    background-color: lightskyblue;
+  }
+  
+  a {
+    text-decoration: none;  
+  }
+
+  h1 a, h2 a {
+    text-decoration: none;
+    visibility: hidden;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1, h2, a, a:visited {
+    color: darkblue;
+    
+  }
+
+  h1:hover a, h2:hover a {
+    color: darkblue;
+    visibility: visible;
+  }
+  
